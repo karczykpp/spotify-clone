@@ -16,7 +16,7 @@ An admin panel for managing music data — albums, artists, and users. Built wit
 </p>
 
 <p align="center">
-  <img src="./screenshots/albums-tab.png" alt="Albums management" width="600" />
+  <img src="Zrzut ekranu 2025-08-12 o 19.50.31.png" alt="Albums management" width="600" />
 </p>
 
 ---
