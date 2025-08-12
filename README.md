@@ -1,52 +1,49 @@
-# 🎵 Music Admin Panel – React + TypeScript + Vite App
+# 🎵 Music Admin Panel – React + TypeScript + Vite
 
-![React](https://img.shields.io/badge/Framework-React-61DAFB?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Build-Tool-Vite-646CFF?logo=vite&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&logoColor=white)
 
-An admin panel for managing music data — albums, artists, and users. Built with React, TypeScript, and Vite for a fast and modern user experience.
+> Admin panel for managing music collections — albums, artists, users — with stats and CRUD functionality.
+
+A clean and modern React + TypeScript app bootstrapped with Vite, featuring a responsive UI and state management via Zustand.
+
+---
+
+## 📦 Table of Contents
+
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [Environment Variables](#environment-variables)
+- [License](#license)
+
+---
+
+## 📝 Description
+
+This project is an admin panel to manage music data including albums, artists, songs, and users. It displays overview statistics and allows CRUD operations on the database via a REST API backend. Built for speed and simplicity with React, TypeScript, and Vite.
 
 ---
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="Zrzut ekranu 2025-08-12 o 19.48.00.png" alt="Dashboard view" width="600" />
-</p>
+![Dashboard](./screenshots/dashboard.png)  
+*Dashboard overview with stats*
 
-<p align="center">
-  <img src="Zrzut ekranu 2025-08-12 o 19.50.31.png" alt="Albums management" width="600" />
-</p>
+![Albums Tab](./screenshots/albums-tab.png)  
+*Albums management interface*
 
 ---
 
-## 🎯 Features
+## 🚀 Installation
 
-- View statistics: total songs, albums, artists, and users
-- Manage albums, artists, and users
-- Responsive and intuitive UI
-- Error handling and data loading states
-- Integration with REST API backend
-
----
-
-## 🛠 Tech Stack
-
-| Area           | Technology               |
-|----------------|--------------------------|
-| Frontend       | React + TypeScript       |
-| Build Tool     | Vite                     |
-| UI Components  | Custom components (Button, etc.) |
-| State Management | Zustand                 |
-| Routing        | React Router             |
-| Testing       | (optional)                |
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/music-admin-panel.git
-   cd music-admin-panel/frontend
+```bash
+git clone https://github.com/yourusername/music-admin-panel.git
+cd music-admin-panel/frontend
+npm install
+npm run dev
